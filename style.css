@@ -553,3 +553,9 @@ button{
     background-color: aqua;
 }
      /* footer end */
+     /* responsive */
+@media (width:785px){
+    a:hover{
+        color: blueviolet;
+    }
+}
