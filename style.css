@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'poppins';
+}
+      /* landing page start */
+#landing{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+#navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(0,0,0,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar .logo{
+    width: 10rem;
+    margin: 5px;
+    margin-left: 7rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+nav ul{
+    padding-left: 9rem;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 5px;
+
+}
+nav ul li a{
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin: 30px 10px 5px 10px;
+}
+#a-btn{
+    margin: 5px 40px;
+   
+}
+#a-btn a{
+    text-decoration: none;
+    background-color: rgb(40, 182, 40);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-size: 14px;
+    margin: 5px 5px;
+    transition: .4s;
+}
+
+#a-btn a:nth-child(1){
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,1);   
+}
+#a-btn a:hover{
+    background-color: rgb(234, 237, 240);
+    color: black;
+}
+
+.a-icon{
+    margin-left: 5px;
+    position: relative;
+    padding-right: 20px;
+}
+ul li a:hover{
+    color: red;
+}
+#navbar-img{
+    width: 100vw;
+    height: 85vh;
+    background-image: url(img/landing-img.webp);
+    background-position: start;
+    background-size: cover;
+}
+    /* landing page end */
+
+     /* restaurent about page start  */
+#about-page{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(23, 23, 23);
+    background-image: url(img/shadow.webp);
+    background-repeat: no-repeat;
+
+}
+#about-text h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#about-text p{
+    padding-top: 10px;
+    padding-left: 12%;
+    color: gray;
+    font-size: 16px;
+    line-height: 25px;
+}
+#about-text span{
+    padding-left: 30%;
+    font-size: 16px;
+    font-family: 'poppins';
+}
+#about-text button{
+    margin-left: 45%;
+    padding: 15px 35px;
+    font-weight: bolder;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(59, 222, 59);
+    color: #fff;
+}
+#about-text button:hover{
+    color: rgb(59, 222, 59);
+    background-color: #fff;
+}
+
+    /* restaurent about page end  */
+
+    /* brand page start */
+#brand{
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    color: #fff;
+    background-image: url(img/landing.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+#brand-text{
+    text-align: center;
+    padding-top: 5%;
+}
+#brand-text h1{
+    font-weight: bolder;
+    font-size: 45px;    
+}
+#brand-text .h1{
+    font-weight: bolder;
+    font-size: 65px;
+}
+#brand-text span{
+    font-weight: bolder;
+    font-size: 58px; 
+    font-family: 'kaushan script';
+}
+#brand-text p{
+    padding-top: 5px;
+}
+#brand-img{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.work{
+    background-color: #fff;
+    margin: 10px 10px ;
+    width: 240px;
+    
+}
+img{
+    padding: 20px 15px;
+}
+button{
+    margin-top: 80px;
+}
+     /* brand page end */
+
+      /* restaurent frenchise page start  */
+#restaurent{
+    width: 100vw;
+    height: 200vh;
+    background-color: rgb(23, 23, 23);
+    background-image: url(img/shadow.webp);
+    background-repeat: no-repeat;
+}
+#content-text{
+    width: 100vw;
+    height: 35vh;
+    padding-top: 25px;
+    text-align: center;
+}
+#content-text h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'poppins';
+}
+#content-text h2{
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+#content-text p{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;
+}
+#content-one{
+    width: 100vw;
+    height: 55vh;
+}
+#content-one #one{
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10%;
+    display: flex;
+}
+#one #one-img{
+    margin-left: 100px;
+}
+#one #one-text{
+    padding-top: 40px;
+}
+#one-text h3{
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+#one-text h1{
+    color: #fff;
+    margin: 5px 0 8px 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+#one-text span{
+    font-family: "kaushan script";
+    letter-spacing: 2px;
+}
+#one-text i{
+    margin-right: 5px;
+}
+#one-text p{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+#one-text button{
+   padding: 10px 30px;
+   border: none;
+   border-radius: 25px;
+   background-color:  black;
+   color: #fff;
+   font-size: 16px;
+    margin-top: 20px;
+}
+#one-text button i{
+    padding: 5px 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: rgb(202, 48, 48);
+    margin-left: 5px;
+}
+#content-two{
+    width: 100vw;
+    height: 55vh;   
+}
+#content-two #two{
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#two #two-text{
+    padding-top: 40px;
+    margin-left:120px;
+}
+#two-text h3{
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+#two-text h1{
+    color: #fff;
+    margin: 5px 0 8px 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+#two-text span{
+    font-family: "kaushan script";
+    letter-spacing: 2px;
+}
+#two-text i{
+    margin-right: 5px;
+}
+#two-text p{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+#two-text button{
+   padding: 10px 30px;
+   border: none;
+   border-radius: 25px;
+   background-color:  black;
+   color: #fff;
+   font-size: 16px;
+    margin-top: 20px;
+}
+#two-text button i{
+    padding: 5px 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: rgb(202, 48, 48);
+    margin-left: 5px;
+}
+#content-three{
+    width: 100vw;
+    height: 55vh;
+}
+#content-three #three{
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10%;
+    display: flex;
+}
+#three #three-img{
+    margin-left: 100px;
+}
+#three #three-text{
+    padding-top: 40px;
+}
+#three-text h3{
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+#three-text h1{
+    color: #fff;
+    margin: 5px 0 8px 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+#three-text span{
+    font-family: "kaushan script";
+    letter-spacing: 2px;
+}
+#three-text i{
+    margin-right: 5px;
+}
+#three-text p{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+#three-text button{
+   padding: 10px 30px;
+   border: none;
+   border-radius: 25px;
+   background-color:  black;
+   color: #fff;
+   font-size: 16px;
+    margin-top: 20px;
+}
+#three-text button i{
+    padding: 5px 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: rgb(202, 48, 48);
+    margin-left: 5px;
+}
+    /* restaurent frenchise page end  */
+
+    /* express frenchise page start  */
+#express-frenchise{
+    width: 100vw;
+    height: 250vh;
+    background-color: rgb(12, 12, 12);
+}
+#express-text{
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
+    padding-top: 50px;
+}
+#express-text h1{
+    font-weight: bolder;
+    font-size: 42px;
+    color: #fff;
+}
+#express-text h2{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+#express-one{
+    width: 100vw;
+    height: 220vh;
+    
+}
+#express-one #one-detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    gap: 8%;
+}
+#one-detail .card{
+    background-color: rgb(19, 19, 19);
+    margin-top: 5%;
+}
+#one-detail .card-body h6{
+    letter-spacing: 2px;
+    color: red;
+}
+#one-detail .card-body i{
+    margin-right: 5px;
+}
+#one-detail .btn-primary{
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+
+    /* express frenchise page end  */
+
+    /* express page start */
+#express{
+    width: 100vw;
+    height: 170vh;
+    background-color: black;
+}
+#express-text{
+    width: 100vw;
+    height: 30vh;
+}
+#express-text span{
+    font-size: 32px;
+}
+#express-content{
+    width: 84vw;
+    height: 140vh;
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    gap: 8%;
+}
+#card{
+    height: 35vh;
+    width: 30%;
+    margin-left: 20px;
+}
+#express-content h6{
+    font-size: 18px;
+    color: red;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 15px;
+}
+#express-content h2{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+#express-content span{
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 6px;
+}
+#express-content h3{
+    padding-bottom: 8px;
+}
+    /* express page end */
+
+    /* social feed page start */
+
+#social{
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(23, 23, 23);
+}
+#express-text{
+    width: 100vw;
+    height: 20vh;
+}
+#social-content{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    gap: 3%;
+    padding-left: 1%;
+}
+#social-content #social-one{
+    width: 22%;
+    height: 100%;
+    /* background-image: url(img/social-1.webp); */
+    background-position: center;
+    background-size: cover;
+}
+#social-content #social-two{
+    width: 22%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#social-content #social-three{
+    width: 22%;
+    height: 100%;       
+    background-position: center;
+    background-size: cover;
+}
+#social-content #social-four{
+    width: 22%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+    /* social feed page end */
+
+    /* footer start */
+#footer{
+    width: 100vw;
+    height: 70vh;
+    background-color: aqua;
+}
+     /* footer end */
