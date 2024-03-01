@@ -549,8 +549,109 @@ button{
     /* footer start */
 #footer{
     width: 100vw;
-    height: 70vh;
-    background-color: aqua;
+    height: 80vh;
+    background-color: rgb(40, 39, 39);
+}
+.container{
+    padding-top: 2%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(40, 39, 39);
+}
+.top{
+    height: 12%;
+    width: 100%;
+    /* background-color: rgb(33, 78, 213); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top p{
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 500px;
+    font-size: 20px;   
+}
+.icon{
+    margin-right: 35px;
+}
+i{
+    margin: 10px 12px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.mid{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding-bottom: 40px;
+}
+.one{
+    height: 100%;
+    width: 25%;
+    padding-top: 70px;
+}
+h2{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+}
+.para{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.two{
+    height: 100%;
+    width: 25%;
+    padding-top: 70px;
+}
+.three{
+    height: 100%;
+    width: 25%;
+    padding-top: 70px;
+}
+.four{
+    height: 100%;
+    width: 25%;
+    padding-top: 70px;
+}
+.line{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+}
+.ions{
+   color: gray;
+}
+.bottom{
+    height: 8%;
+    width: 100%;
+
+}
+.last{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 37%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500px;
+    background-color: rgb(28, 28, 28);
+}
+i:hover{
+    color: royalblue;
 }
      /* footer end */
      /* responsive */
